@@ -13,6 +13,11 @@ model_code:
 - ablation study: including clustering, distance function
 
 To execute:
-'python model_code/meta-LSTM.py'
-'python model_code/meta-film.py'
+```
+python model_code/meta-LSTM.py
+```
+
+```
+python model_code/meta-film.py
+```
 
