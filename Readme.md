@@ -7,12 +7,12 @@ data:
 - link_feature.txt: spatial features for roads
 
 model_code:
-- meta-LSTM: MAML+LSTM
-- meta-film: MAML+LSTM
-- Time-Series-Library: baselines
+- meta-LSTM: MetaSTC+LSTM
+- meta-film: MetaSTC+LSTM
 - ablation study: including clustering, distance function
 
 To execute:
+
 ```
 python model_code/meta-LSTM.py
 ```
